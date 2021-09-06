@@ -1,3 +1,15 @@
+/*
+    Problem Statement 2 : 
+    Write a code in OpenMP for multiplication of 2D Matrix and a 1D vector 
+    (Demonstrate the use of different clauses wherever applicable), 
+    vary the size of your matrices from 200, 1000, 2000 and 3000 
+    and measure the runtime with one thread 
+    (Use functions in C in calculate the execution time or use GPROF) For each matrix size,
+    change the number of threads from 2,4,8., 
+    and plot the speedup versus the number of threads. 
+    Explain whether or not the scaling behaviour is as expected.
+*/
+
 #include <omp.h>
 #include <stdio.h>
 #include <stdlib.h>

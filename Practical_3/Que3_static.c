@@ -1,3 +1,9 @@
+/* 
+For 2D Matrix Addition of size 2000, Write a OpenMP code with the following: 
+Use STATIC schedule and set the loop iteration chunk size to various sizes 
+when changing the size of your matrix. Analyze the speedup. 
+*/
+
 #include <omp.h>
 #include <stdio.h>
 #include <stdlib.h>

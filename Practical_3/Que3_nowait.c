@@ -1,4 +1,8 @@
-/* compute matrix A multiplied by matrix B; the results are stored in matrix C */
+/* 
+For 2D Matrix Addition of size 2000, Write a OpenMP code with the following: 
+Demonstrate the use of nowait clause.
+*/
+
 #include <omp.h>
 #include <stdio.h>
 #include <stdlib.h>
