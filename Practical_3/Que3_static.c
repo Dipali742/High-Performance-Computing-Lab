@@ -13,8 +13,8 @@ when changing the size of your matrix. Analyze the speedup.
 //size of resultant matrix - N*M
 
 //size of matrix = 50*40 = 2000
-#define N 50 /* number of rows */
-#define M 40 /* number of columns */
+#define N 5 /* number of rows */
+#define M 4 /* number of columns */
 #define threads_cnt 16
 
 int main (int argc, char *argv[])

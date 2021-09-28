@@ -18,8 +18,8 @@
 //(1xn) * (nxm) = (1xm)  
 //size of resultant matrix - 1xm
 
-#define N 10 /* number of rows in matrix A */
-#define M 500 /* number of columns in matrix B */
+#define N 4 /* number of rows in matrix A */
+#define M 5 /* number of columns in matrix B */
 
 
 #define threads_cnt 32
